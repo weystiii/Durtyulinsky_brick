@@ -1,0 +1,24 @@
+:root {
+    --gutter:20px;
+}
+.container{
+    width: 1244px;
+    padding: 0 var(--gutter);
+    margin: 0 auto;
+}
+.grid-container{
+}
+.product-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: var(--gutter);
+    grid-column: 3span;
+}
+.product-grid1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: var(--gutter);
+    grid-column: 2span;
+}

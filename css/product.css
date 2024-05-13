@@ -1,0 +1,113 @@
+.container_sss{
+    padding-left: 180px;
+}
+.product1{
+    width: 390px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 35px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+    background-color: #fff;
+    font-size: 14px;
+}
+.product_title1{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+.product_title a{
+    color: #000;
+}
+.cont{
+    padding-top: 120px;
+}
+.cont1{
+    padding: 50px 0;
+}
+.product{
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 30px;
+    padding-top: 9px;
+    background-color: #fff;
+    font-size: 14px;
+}
+.product_img{
+    position: relative;
+    display: block;
+    width: 310px;
+    height: 200px;
+    overflow: hidden;
+}
+.image-switch{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.image-switch_item{
+    flex-grow: 1;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+}
+.image-switch_img{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    background-color: #fff;
+    align-items: center;
+    opacity: 1;
+}
+.product_title{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+.product_info{
+    font-size: 14px;
+}
+.product_size{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.product_weight{
+    display: flex;
+    margin-bottom: 7px;
+    align-items: center;
+}
+.product_packing{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.product_packing{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.product-price{
+    display: flex;
+    align-items: center;
+}
+.product-price_cerrent{
+    font-size: 25px;
+}
+.product_btn{
+    width: 100%;
+}
